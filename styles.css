@@ -101,6 +101,13 @@ body {
       justify-content: start;
   }
 
+  svg {
+      display: block;
+      object-fit: contain;
+      width: 20px;
+      height: 20px;
+  }
+
   .contact-info__item:not(:last-child) {
       margin-bottom: 20px;
   }
